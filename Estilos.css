@@ -1,0 +1,60 @@
+﻿header {
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+	background:#290F00;
+	margin-bottom:20px;
+}
+
+.wrapper {
+	width:100%; 
+	max-width:1000px; 
+	margin:auto; 
+	overflow:hidden; 
+}
+
+header .logo {
+	color:#f2f2f2;
+	font-size:50px;
+	line-height:200px;
+	float:left;
+}
+
+header nav {
+	float:right;
+	line-height:80px;
+}
+
+header nav a {
+	display:inline-block;
+	color:#fff;
+	text-decoration: none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+header nav a:hover {
+	background:black;
+	border-radius:50px;
+}
+body{
+	background: #FFC90D;
+	text-align: justify;
+}
+h5{
+	color: black;
+}
+p{
+	color: black;
+}
+hr{
+	background: white;
+	border: 3;
+}
+footer{
+	background:#290F00;
+}
